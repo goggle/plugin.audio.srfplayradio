@@ -25,7 +25,8 @@
     <website>https://www.srf.ch/play/radio</website>
     <email>seileralex@gmail.com</email>
     <source>https://github.com/goggle/plugin.audio.srfplayradio</source>
-    <news>v0.9.0</news>
+    <news>v0.9.0 (2019-03-26)
+Initial release</news>
     <assets>
         <icon>resources/icon.png</icon>
         <fanart>resources/fanart.png</fanart>
@@ -33,7 +34,6 @@
         <screenshot>resources/screenshot-02.png</screenshot>
         <screenshot>resources/screenshot-03.png</screenshot>
         <screenshot>resources/screenshot-04.png</screenshot>
-        <screenshot>resources/screenshot-05.png</screenshot>
     </assets>
   </extension>
 </addon>
