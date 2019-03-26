@@ -139,6 +139,8 @@ def run():
         SRFPlayRadio().build_radio_shows_by_topic(name)
     elif mode == 50:
         SRFPlayRadio().play_video(name, audio=True)
+    elif mode == 51:
+        SRFPlayRadio().play_livestream(name)
 
     xbmcplugin.setContent(int(sys.argv[1]), CONTENT_TYPE)
     xbmcplugin.addSortMethod(int(sys.argv[1]), xbmcplugin.SORT_METHOD_UNSORTED)
