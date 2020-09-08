@@ -44,6 +44,7 @@ class SRFPlayRadio(srgssr.SRGSSR):
     def __init__(self):
         super(SRFPlayRadio, self).__init__(
             int(sys.argv[1]), bu='srf', addon_id=ADDON_ID)
+        self.apiv3_url = None
 
 
 def log(msg, level=xbmc.LOGDEBUG):
